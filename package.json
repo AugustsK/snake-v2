@@ -1,0 +1,33 @@
+{
+  "name": "snake-v2",
+  "version": "1.0.0",
+  "description": "Just a snake game. Now in canvas",
+  "main": "src/index.ts",
+  "repository": "https://github.com/AugustsK/snake-v2",
+  "author": "Augusts Karklins <augusts.karklins@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development webpack serve --open",
+    "build": "webpack",
+    "lint": "eslint 'src/**/*.{ts,js}'"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.23.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/app/*": ["./src/*"],
+      "@/types": ["./src/@types"],
+      "@/types/*": ["./src/@types/*"],
+      "@/public/*": ["./public/*"]
+    },
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.collection"
+    ]
+  }
+}

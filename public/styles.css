@@ -1,0 +1,19 @@
+@import 'normalize.css';
+
+body {
+    background-color: #212121;
+    overflow: hidden;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.canvas {
+    background-color: #212121;
+    border: 1px solid white;
+}
